@@ -30,7 +30,7 @@ jobs:
       
     - name: Run Surge
       run: surge ./ bootcamp2020_asfandproject.surge.sh --token${{secrets.SURGE_TOKEN}}
-      
+      #Just for chrck
       
       
       
